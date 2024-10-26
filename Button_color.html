@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body id="one">
+    <button id="button1">Blue</button>
+    <button id="button2">Green</button>
+    <button id="button3">Red</button>
+    <button id="button4">Yellow</button>
+    <script>
+        let y=document.getElementById("one");
+
+        let x=document.getElementById("button1");
+        x.addEventListener("click",function(){
+        y.style.backgroundColor="Blue";})
+
+        let x1=document.getElementById("button2");
+        x1.addEventListener("click",function(){
+        y.style.backgroundColor="Green";})
+
+        let x2=document.getElementById("button3");
+        x2.addEventListener("click",function(){
+        y.style.backgroundColor="Red";})
+
+        let x3=document.getElementById("button4");
+        x3.addEventListener("click",function(){
+        y.style.backgroundColor="Yellow";})
+        
+        
+
+    </script>
+</body>
+</html>
