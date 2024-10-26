@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body id="one">
+    Enter NID Number=<input id="nid" type="text">
+    <br>
+    Enter Mobile Number=<input id="mobile" type="text">
+    <br>
+    Enter Date of Today =<input id="date" type="text">
+    <br>
+    <button>Save</button>
+
+    <script>
+        let nid1=document.getElementById("nid").value;
+        nid1.addEventListener("click",function(){
+            if(nid1.length != 13){
+            alert("NID must be 13 digit");
+            document.getElementById("nid"),focus();}
+
+            else{
+                alert("Saved Successfuuly");
+            }
+        })
+        
+        let mob1=document.getElementById("mobile").value;
+        mob1.addEventListener("click",function(){
+            if(mob1.length !==11){
+            alert("NID must be 11 digit and GP number);}
+           
+            else{
+                alert("Saved Successfuuly");
+            }
+        })
+        let date1=document.getElementById("date").value;
+        dare1.addEventListener("click",function(){
+            if(date1=){
+            }
+            else{
+                alert("Saved Successfuuly");
+            }
+        })
+        
+    </script>
+
+</body>
+</html>
