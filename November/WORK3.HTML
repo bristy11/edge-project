@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const x=["Dhaka","Rajshahi","Chattograma","Rangpur","Sylhet","Barishal","Khulna","Mymensingh"];
+        let paragraph="";
+        x.forEach(function(x){
+            paragraph =paragraph +"<p>"+ x +"</p>";
+
+            
+        });
+
+        let body= document.querySelector("body");
+        body.innerHTML=paragraph ;
+
+    </script>
+    
+  
+
+</body>
+</html>
