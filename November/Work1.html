@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .color{
+            color: aqua;
+            background-color: antiquewhite;
+            font-size: medium;
+        }
+        .color1{
+            color: aquamarine;
+        }
+    </style> 
+
+    <p id="ab" >Dhaka</p>
+    <p>Khulna</p>
+    <p>Ctg</p>
+    <p>Barisal</p>
+    <button id="button">Click</button>
+
+    <script>
+
+        let a =document.querySelector("#button");
+        a.addEventListener("click",function(){
+            let x = document.querySelector("#ab");
+            x.classlist.add("color");
+           
+           
+
+        });
+       
+
+    </script>
+</body>
+</html>
