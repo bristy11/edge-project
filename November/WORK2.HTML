@@ -18,3 +18,30 @@
     </script>
 </body>
 </html>
+
+
+
+
+//RIGHT
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Number Generator</title>
+</head>
+<body>
+    <p id="ab">Bristy</p>
+    <button id="cd">Click</button>
+    <script>
+        let b = document.querySelector("#cd");
+        b.addEventListener("click", function() {
+            let p = document.querySelector("#ab");
+            p.innerText = Math.random()*40; 
+            let y=Math.Floor(p);
+            y.innerText = p;
+        });
+    </script>
+</body>
+</html>
+
