@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bristy</title>
+</head>
+<body>
+    <p>one</p>
+    <p><strong>two</strong></p>
+    <p>three</p>
+
+    <div>Hello Bangladesh</div>
+
+    <script>
+        let p = document.querySelectorAll("p");
+        let p = document.getElementById("div1").children;
+
+        console.log(p[1].innerText);
+
+
+        p.forEach(function(item){
+            alter(item.innerHTML);
+        })
+    </script>
+</body>
+</html>
