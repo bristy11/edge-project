@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="abc"></p>
+
+    <script>
+        let x=1;
+        let y=setInterval(function(){
+            document.getElementById("abc").innerText=x;
+            x++;
+            if (x==60){
+                finish=1;
+            }
+        },1000);
+
+
+        while(finish){
+            clearInterval(y);
+
+            break;
+        }
+    </script>
+</body>
+</html>
